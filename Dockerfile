@@ -1,4 +1,4 @@
-FROM nexus.surgeons.org:8083/jenkins:latest
+FROM jenkinsci/jenkins:lts
 USER root
 
 RUN mkdir -p /tmp/download && \
